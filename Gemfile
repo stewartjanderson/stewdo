@@ -50,5 +50,7 @@ group :development, :test do
 
   gem 'devise', '~> 3.4.0'
 
+  gem "auto_html"
+
 end
 
