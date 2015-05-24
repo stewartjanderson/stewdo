@@ -58,4 +58,4 @@ end
 
   gem "auto_html"
 
-
+  gem 'rails_admin'
