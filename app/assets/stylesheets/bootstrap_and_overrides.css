@@ -65,7 +65,10 @@ dfn {
 h1 {
   font-size: 2em;
   margin: 0.67em 0;
-  color: #ecf0f1;
+  color: #ecf0f1 !important;
+}
+h2 {
+  color: #ecf0f1 !important;
 }
 mark {
   background: #ff0;
@@ -1089,7 +1092,7 @@ body {
   font-size: 15px;
   line-height: 1.42857143;
   color: #2c3e50;
-  background-color: #dadfe1;
+  background-color: #2980b9;
 }
 input,
 button,
@@ -1105,7 +1108,7 @@ a {
 }
 a:hover,
 a:focus {
-  color: #18bc9c;
+  color: #2980b9;
 }
 a:focus {
   outline: thin dotted;
@@ -4402,7 +4405,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 }
 .navbar-default .navbar-brand:hover,
 .navbar-default .navbar-brand:focus {
-  color: #18bc9c;
+  color: #2980b9;
   background-color: transparent;
 }
 .navbar-default .navbar-text {
@@ -4413,7 +4416,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 }
 .navbar-default .navbar-nav > li > a:hover,
 .navbar-default .navbar-nav > li > a:focus {
-  color: #18bc9c;
+  color: #2980b9;
   background-color: transparent;
 }
 .navbar-default .navbar-nav > .active > a,
@@ -4861,7 +4864,7 @@ a.badge:focus {
 }
 .jumbotron h1,
 .jumbotron .h1 {
-  color: inherit;
+  color: #2c3e50 !important;
 }
 .jumbotron p {
   margin-bottom: 15px;
@@ -6832,9 +6835,22 @@ a.list-group-item-danger.active:focus {
   color: #2c3e50;
 }
 
+#sub-area p {
+  color: #ecf0f1;
+}
+
 #sub-area a {
-	color: #18bc9c;
+	color: #34495e;
 }
 #sub-area a:hover {
-	text-decoration: underline;
+	color: #2c3e50;
+  text-decoration: underline;
+}
+
+#cancel a {
+  color: #e74c3c;
+}
+
+#cancel a:hover {
+  color: #c0392b;
 }
