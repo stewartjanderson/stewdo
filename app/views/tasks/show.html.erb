@@ -1,14 +1,12 @@
-<p id="notice"><%= notice %></p>
+<p class="text-center" id="notice"><%= notice %></p>
 
+<div class="text-center"><div class="panel panel-default">
 <p>
-  <strong>Content:</strong>
+  <strong>Task:</strong>
   <%= @task.content %>
 </p>
-
-<p>
-  <strong>State:</strong>
-  <%= @task.state %>
-</p>
-
+</div></div>
+<div class="text-center" id="sub-area">
 <%= link_to 'Edit', edit_task_path(@task) %> |
 <%= link_to 'Back', tasks_path %>
+</div>
